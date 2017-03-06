@@ -49,7 +49,7 @@ app.post('/upload', function(req, res) {
 
 
 
-        app.get('/games', isLoggedIn,  function (req, res) {
+        app.get('/game', isLoggedIn,  function (req, res) {
             var resetInforUser = req.user.local.nick,
                 resetUserId = req.user._id,
                 listUser;
@@ -81,8 +81,8 @@ app.post('/upload', function(req, res) {
 
 
                 res.render('template', {
-                    page: "games",
-                    title: "games",
+                    page: "game",
+                    title: "game",
                     //list: users
                 });
              
