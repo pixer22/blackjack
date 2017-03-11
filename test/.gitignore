@@ -1,0 +1,6 @@
+/node_modules
+/db
+*.lnk
+*.bat
+*.log
+Thumbs.db

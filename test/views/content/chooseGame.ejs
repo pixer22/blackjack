@@ -1,0 +1,33 @@
+<body class="chooseGame">
+	<header>
+		<div class="game-status">
+			<span>Black Jack Tables</span>
+		</div>
+	</header>
+	<main>
+		<div class="create-new-table">
+		    <span class="create-new-table-min">Min</span>
+		    <label for="min-bet-5">5</label>
+		    <input type="radio" name="min-bet" id="min-bet-5" checked>
+		    <label for="min-bet-25">25</label>
+		    <input type="radio" name="min-bet" id="min-bet-25">
+		    <label for="min-bet-50">50</label>
+		    <input type="radio" name="min-bet" id="min-bet-50">
+		    <label for="min-bet-100">100</label>
+		    <input type="radio" name="min-bet" id="min-bet-100">
+		    <button id="newTable"></button>
+		    <label for="max-bet-50">50</label>
+		    <input type="radio" name="max-bet" id="max-bet-50" checked>
+		    <label for="max-bet-100">100</label>
+		    <input type="radio" name="max-bet" id="max-bet-100">
+		    <label for="max-bet-500">500</label>
+		    <input type="radio" name="max-bet" id="max-bet-500">
+		    <label for="max-bet-1000">1000</label>
+		    <input type="radio" name="max-bet" id="max-bet-1000">
+		    <span class="create-new-table-max">Max</span>
+		</div>
+		<section class="game-tables">
+		<%-gameTables%>
+		</section>
+	</main>
+</body>

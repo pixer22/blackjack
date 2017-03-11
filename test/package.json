@@ -1,0 +1,42 @@
+{
+  "name": "blackJack",
+  "description": "online card game",
+  "version": "0.1.0",
+  "main": "app.js",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Gash",
+    "email": "Gashik209@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gashik209/blackjack.git"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "~0.0.3",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "^1.4.3",
+    "ejs": "2.5.1",
+    "express": "^4.8.5",
+    "express-device": "^0.4.2",
+    "express-session": "^1.14.1",
+    "jade": "0.34.1",
+    "morgan": "~1.0.0",
+    "multer": "^1.2.0",
+    "nconf": "^0.8.4",
+    "nedb": "~1.8.0",
+    "passport": "0.1.x",
+    "passport-local": "0.1.x",
+    "passport-remember-me": "0.0.1",
+    "serve-favicon": "^2.0.1",
+    "socket.io": "~1.4.8",
+    "socket.io-cookie-parser": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 4.4.0"
+  }
+}
